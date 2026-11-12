@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>16 - Cara Hosting HTML di Netlify</title>
+  </head>
+  <body>
+    <h2>Langkah-langkah Hosting HTML di Netlify</h2>
+    <ol>
+      <li>Pastikan file utama proyek bernama <strong>index.html</strong>.</li>
+      <li>
+        Buka situs
+        <a href="https://app.netlify.com" target="_blank">app.netlify.com</a>
+        dan login.
+      </li>
+      <li>
+        Masuk ke menu <strong>Sites</strong>, lalu seret dan lepas
+        (drag-and-drop) folder proyek ke area unggah.
+      </li>
+      <li>Tunggu proses selesai hingga website mendapatkan URL gratis.</li>
+    </ol>
+  </body>
+</html>

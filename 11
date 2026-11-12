@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>11 - Membuat Form</title>
+</head>
+<body>
+    <form action="proses.php" method="POST">
+        <label>Nama Lengkap:</label><br>
+        <input type="text" name="nama" placeholder="Masukkan nama..." required><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" name="password"><br><br>
+
+        <label>Jenis Kelamin:</label><br>
+        <input type="radio" name="jk" value="L"> Laki-laki
+        <input type="radio" name="jk" value="P"> Perempuan<br><br>
+
+        <label>Hobi:</label><br>
+        <input type="checkbox" name="hobi" value="coding"> Ngoding
+        <input type="checkbox" name="hobi" value="baca"> Membaca<br><br>
+
+        <label>Kota Asal:</label><br>
+        <select name="kota">
+            <option value="jakarta">Jakarta</option>
+            <option value="bandung">Bandung</option>
+        </select><br><br>
+
+        <label>Pesan:</label><br>
+        <textarea name="pesan" rows="4" cols="30"></textarea><br><br>
+
+        <button type="submit">Kirim Data</button>
+    </form>
+</body>
+</html>

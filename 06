@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>06 - Text Formatting</title>
+</head>
+<body>
+    <p>
+        <b>Teks Tebal (Bold)</b> | <strong>Teks Penting (Strong)</strong><br>
+        <i>Teks Miring (Italic)</i> | <em>Teks Penekanan (Emphasized)</em><br>
+        <u>Teks Garis Bawah</u> | <del>Teks Tercoret</del> | <mark>Teks Stabilo</mark><br>
+        Rumus Kimia: H<sub>2</sub>O | Pangkat Matematika: X<sup>2</sup>
+    </p>
+</body>
+</html>

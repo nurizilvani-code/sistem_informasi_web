@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>07 - Membuat Link</title>
+</head>
+<body>
+    <p><a href="https://www.petanikode.com" target="_blank">Kunjungi Petani Kode (Tab Baru)</a></p>
+    <p><a href="01-dasar.html">Buka File 01-dasar.html</a></p>
+    <p><a href="mailto:april@email.com">Kirim Email</a></p>
+</body>
+</html>

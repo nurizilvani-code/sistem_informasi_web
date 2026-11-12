@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>12 - Elemen Semantik</title>
+</head>
+<body>
+    <header>
+        <h1>Judul Website</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a> | <a href="#">Artikel</a> | <a href="#">Kontak</a>
+    </nav>
+    <main>
+        <article>
+            <h2>Judul Artikel</h2>
+            <p>Isi konten utama artikel menggunakan tag semantik.</p>
+        </article>
+        <aside>
+            <p>Konten sampingan / Sidebar</p>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2026 Hak Cipta Dilindungi</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>02 - Tag, Elemen, dan Atribut</title>
+</head>
+<body>
+    <p align="center" id="paragraf-utama" style="color: blue;">
+        Teks ini menggunakan atribut rata tengah dan warna biru.
+    </p>
+</body>
+</html>

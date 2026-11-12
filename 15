@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catatan & Blog - Nuri Zilvani</title>
+</head>
+<body>
+    <!-- Header Blog -->
+    <header style="text-align: center;">
+        <h1>Catatan Harian & Teknologi</h1>
+        <p><em>Ruang berbagi catatan ngoding, basis data, dan pengalaman belajar oleh Nuri Zilvani.</em></p>
+        <nav>
+            <a href="#beranda">Beranda</a> |
+            <a href="#artikel">Artikel Terbaru</a> |
+            <a href="#kategori">Kategori</a> |
+            <a href="#kontak">Kontak</a>
+        </nav>
+    </header>
+    <hr>
+
+    <main>
+        <!-- Bagian Artikel Utama / Blog Posts -->
+        <section id="artikel">
+            <h2>Artikel & Catatan Terbaru</h2>
+            
+            <article>
+                <h3>Mengenal Relasi Foreign Key pada Database MySQL</h3>
+                <p><small>Dipublikasikan pada: 12 November 2026 | Kategori: Database</small></p>
+                <p align="justify">
+                    Dalam perancangan basis data relasional, penggunaan foreign key sangat penting untuk menjaga integritas data antar tabel. Artikel ini membahas bagaimana menghubungkan tabel relasi dengan benar...
+                </p>
+                <p><a href="#">Baca selengkapnya &rarr;</a></p>
+            </article>
+            <hr>
+
+            <article>
+                <h3>Membuat Route dan Controller Sederhana di Laravel</h3>
+                <p><small>Dipublikasikan pada: 10 November 2026 | Kategori: Web Development</small></p>
+                <p align="justify">
+                    Framework Laravel mempermudah pengelolaan routing dan logika aplikasi web. Pada catatan kali ini, kita akan membahas cara mengatur struktur MVC dasar untuk proyek katalog...
+                </p>
+                <p><a href="#">Baca selengkapnya &rarr;</a></p>
+            </article>
+        </section>
+
+        <hr>
+
+        <!-- Bagian Kategori / Sidebar -->
+        <section id="kategori">
+            <h2>Kategori Catatan</h2>
+            <ul type="square">
+                <li>Manajemen Basis Data & SQL</li>
+                <li>Pengembangan Web (PHP / Laravel)</li>
+                <li>Catatan & Jurnal Kegiatan Relawan</li>
+                <li>Eksperimen Kode HTML & CSS</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Bagian Berlangganan / Form Komentar -->
+        <section id="kontak">
+            <h2>Kirim Komentar atau Pesan</h2>
+            <form action="proses-komentar.php" method="POST">
+                <label>Nama:</label><br>
+                <input type="text" name="nama" placeholder="Nama Anda..." required><br><br>
+
+                <label>Email:</label><br>
+                <input type="email" name="email" placeholder="email@domain.com"><br><br>
+
+                <label>Pesan / Pertanyaan:</label><br>
+                <textarea name="pesan" rows="4" cols="35" placeholder="Tulis tanggapan artikel di sini..."></textarea><br><br>
+
+                <button type="submit">Kirim Tanggapan</button>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer style="text-align: center;">
+        <p>&copy; 2026 Nuri Zilvani. Dibangun dengan HTML Dasar dan Semantik.</p>
+    </footer>
+</body>
+</html>

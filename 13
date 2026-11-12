@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>13 - Menampilkan Video</title>
+</head>
+<body>
+    <h3>Video Lokal</h3>
+    <video width="400" controls>
+        <source src="video-tutorial.mp4" type="video/mp4">
+        Browser Anda tidak mendukung tag video.
+    </video>
+
+    <h3>Embed Video YouTube</h3>
+    <iframe width="400" height="225" src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+</body>
+</html>

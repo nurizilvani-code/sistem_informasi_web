@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>05 - Membuat Komentar</title>
+</head>
+<body>
+    <!-- Ini adalah komentar satu baris, tidak akan tampil di browser -->
+    <p>Teks ini tampil di layar browser.</p>
+
+    <!-- 
+        Ini adalah komentar 
+        lebih dari satu baris 
+    -->
+</body>
+</html>

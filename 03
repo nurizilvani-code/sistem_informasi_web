@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>03 - Membuat Paragraf</title>
+</head>
+<body>
+    <p>Ini adalah paragraf pertama di dalam dokumen HTML.</p>
+    <hr>
+    <p>Ini paragraf kedua.<br>Baris ini turun ke bawah menggunakan tag br tanpa membuat paragraf baru.</p>
+</body>
+</html>

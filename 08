@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>08 - Menampilkan Gambar</title>
+</head>
+<body>
+    <h2>Contoh Gambar di HTML</h2>
+    <img src="gambar-kucing.jpg" alt="Foto Kucing Lucu" width="300" height="200">
+</body>
+</html>
